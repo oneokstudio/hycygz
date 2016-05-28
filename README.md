@@ -1,5 +1,18 @@
-这是一个 Vuex 项目模版——如果你在项目中需要用到 Vue.js、vue-router、Vuex 和 SASS，那么这个模版就是为你准备的。
+# edm
 
-这个模版添加了常用的 Webpack 配置。开发前使用 `npm start` 开启一个本地服务器然后用浏览器打开 [http://localhost:8080/](http://localhost:8080/)，你每次更改代码后这个网页都会 [Hot Module Replacement](http://webpack.github.io/docs/hot-module-replacement.html)，不需要你手动刷新浏览器。
+> A Vue.js project
 
-另外，运行 `npm run build` 能将你的代码以生产模式编译到 `./dist/` 文件夹。
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+```
+
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
