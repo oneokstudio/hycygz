@@ -7,6 +7,7 @@ module.exports = {
     assetsRoot: path.resolve(__dirname, 'dist'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '/hycygz/dist/',
+    // assetsPublicPath: '/',
     productionSourceMap: false
   },
   dev: {
