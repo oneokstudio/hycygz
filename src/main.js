@@ -14,8 +14,7 @@ Vue.use(require('vue-resource'));
 
 // create router
 const router = new VueRouter({
-  history: true,
-  hashbang: false,
+  history: false,
   saveScrollPosition: true
 });
 
