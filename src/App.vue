@@ -6,10 +6,13 @@
 
       <carousel>
         <slider>
-          <img src="assets/img/intro-1.jpg">
+          <img src="assets/img/intro/i-1.jpg">
         </slider>
         <slider>
-          <img src="assets/img/intro-2.jpg">
+          <img src="assets/img/intro/i-2.jpg">
+        </slider>
+        <slider>
+          <img src="assets/img/intro/i-3.jpg">
         </slider>
       </carousel>
 
@@ -18,6 +21,14 @@
       </div>
     </div>
 </template>
+
+<style>
+  .carousel-inner > .item > img {
+    height: 550px;
+    margin: 0 auto;
+  }
+</style>
+
 <script>
   import headerView from './views/layout/header.vue'
   var carousel = require('vue-strap').carousel

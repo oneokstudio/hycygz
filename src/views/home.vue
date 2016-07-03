@@ -24,12 +24,34 @@
     </detail-panel>
 
     <detail-panel>
+      <div slot="head">公司剪影</div>
+      <div slot="body">
+        <ul class="photos">
+          <li><img src="../assets/img/intro/1.jpg" alt=""></li>
+          <li><img src="../assets/img/intro/2.jpg" alt=""></li>
+          <li><img src="../assets/img/intro/3.jpg" alt=""></li>
+          <li><img src="../assets/img/intro/24.pic.jpg" alt=""></li>
+          <li><img src="../assets/img/intro/27.pic.jpg" alt=""></li>
+          <li><img src="../assets/img/intro/28.pic.jpg" alt=""></li>
+          <li><img src="../assets/img/intro/31.pic.jpg" alt=""></li>
+          <li><img src="../assets/img/intro/34.pic.jpg" alt=""></li>
+          <li><img src="../assets/img/intro/44.pic.jpg" alt=""></li>
+          <li><img src="../assets/img/intro/46.pic.jpg" alt=""></li>
+          <li><img src="../assets/img/intro/61.pic.jpg" alt=""></li>
+          <li><img src="../assets/img/intro/73.pic.jpg" alt=""></li>
+          <li><img src="../assets/img/intro/77.pic.jpg" alt=""></li>
+        </ul>
+      </div>
+    </detail-panel>
+
+    <detail-panel>
       <div slot="head">资质荣誉</div>
       <div slot="body">
         <div class="credit-list">
           <img src="../assets/img/credit-2.jpg" alt="">
           <img src="../assets/img/credit-1.jpg" alt="" style="width: 400px;padding-top: 45px;">
         </div>
+        <img src="../assets/img/25.pic.png" alt="" style="width: 628px;margin-top: 30px;">
       </div>
     </detail-panel>
 
@@ -46,6 +68,22 @@
     </detail-panel>
   </div>
 </template>
+
+<style lang="less" rel="stylesheet/less">
+  .photos {
+    overflow: hidden;
+    li {
+      width: 33.3%;
+      float: left;
+      padding-right: 20px;
+      margin-bottom: 20px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+</style>
 
 <script>
 import panel from '../components/panel.vue'
